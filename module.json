@@ -1,0 +1,18 @@
+{
+    "id": "roll-the-dice",
+    "title": "Roll the Dice - Better Manual Rolling",
+    "description": "A module that changes the manual rolling behavior of Foundry v12.",
+    "authors": [
+        {
+            "name": "Amit"
+        }
+    ],
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "12",
+        "verified": "12"
+    },
+    "esmodules": [
+        "scripts/main.js"
+    ]
+}
