@@ -1,5 +1,7 @@
 console.log("Hello World! This code runs immediately when the file is loaded.");
 
+CONFIG.debug.hooks = true;
+
 Hooks.on("init", function() {
   console.log("This code runs once the Foundry VTT software begins its initialization workflow.");
 });
